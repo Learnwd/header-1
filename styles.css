@@ -1,0 +1,44 @@
+/*start of header-1*/
+.header-1 {
+    background: linear-gradient(rgba(62, 63, 64, 0.6), rgba(62, 63, 64, 0.6)), url("https://i.imgur.com/FVieG2F.png");
+    background-size: cover;
+    background-position: center bottom;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-1 h1 {
+    font-size: 3.875rem;
+    font-weight: 300;
+}
+
+.header-1 p {
+    font-size: 1.15rem;
+    font-weight: 300;
+    width: 75%;
+}
+
+.header-1 .btn {
+    padding: 10px 26px;
+    background-color: #313131;
+    color: #FFF;
+    border: solid 2px #313131;
+}
+
+.header-1 .btn:hover {
+    color: #FFF;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
+}
+
+@media (min-width: 992px) {
+    .header-1 {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+/*end of header-1*/
